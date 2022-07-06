@@ -128,7 +128,7 @@ body{
     font-weight: 200;
     color: #8a4b4bcb;
 }
-/* donate-plane starts here */
+
 .cards{
     width: 30%;
     padding: 2%;
@@ -139,7 +139,10 @@ body{
     padding-top: 10%;
     padding-bottom: 2%;
 }
-
+.help-img{
+    width: 20%;
+    border-radius: 50px;
+}
 .donate-plan-qualitys{
     display: flex;
    justify-content: space-around;
