@@ -246,14 +246,14 @@ body{
     color: #000000;
 }
 .allnews-link{
-    width: 25%;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 100px;
 }
 .all-links-btn{
     text-decoration: none;
     background: linear-gradient(black,rgb(91, 91, 50));
-    padding: 10px 40px;
+    padding: 10px 100px;
     font-size: 1.5rem;
     color: #ffffff;
     font-weight: 500;
@@ -290,6 +290,33 @@ body{
 .updated-texts p{
     font-size: 16px;
     color: #0d9484d4;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
+}
+.subscribe{
+    padding: 50px;
+    background-color: rgba(168, 143, 60, 0.533);
+}
+.email-subscribers{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.send-mail{
+    padding: 10px;
+    outline: none;
+    border: none; 
+}
+#get-email{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.sub-btn{
+    background-color: red;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
 }
 /* myupdates ends here */
