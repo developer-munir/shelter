@@ -3,5 +3,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
     font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+    background-image: linear-gradient(rgba(3, 4, 3, 0.286),rgba(20, 139, 172, 0.64)),url(images/donation4.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-texts{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15%; 
+}
+.header-texts h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.header-texts p{
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+.donate-btn{
+    text-decoration: none;
+    background: linear-gradient(rgba(228, 218, 218, 0.859),rgb(11, 104, 13));
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.donate-btn:hover{
+    background: transparent;
+    border-bottom: 2px solid black;
+    color: #ffe602d8;
 }
