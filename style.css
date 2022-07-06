@@ -229,5 +229,37 @@ body{
     background-color: #ffffff;
     box-shadow: 5px 5px 20px rgb(142, 139, 139);
 }
+.readmore-btn{
+    text-decoration: none;
+    background: linear-gradient(rgb(50, 76, 179),rgb(12, 5, 16));
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    text-transform: uppercase;  
+}
+.allnews-link{
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.all-links-btn{
+    text-decoration: none;
+    background: linear-gradient(black,rgb(91, 91, 50));
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    text-transform: capitalize;
+}
+.all-links-btn:hover{
+    background: transparent;
+    border: 2px solid black;
+    color: #000000;
+}
 
 /* latest news ends here */
