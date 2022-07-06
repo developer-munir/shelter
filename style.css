@@ -7,6 +7,7 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
+/* header starts here */
 .header{
     background-image: linear-gradient(rgba(3, 4, 3, 0.286),rgba(20, 139, 172, 0.64)),url(images/donation4.jpg);
     height: 100vh;
@@ -45,3 +46,61 @@ body{
     border-bottom: 2px solid black;
     color: #ffe602d8;
 }
+/* header ends here */
+
+/* donation start here */
+.donation{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10%; 
+}
+.donation-text,
+.donation-tk{
+    display: block;
+    padding: 2%;
+}
+.donation-text h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 2%;
+}
+.donation-text P{
+    font-size: 15px;
+    font-weight: 200;
+    color: #8a4b4bcb;
+}
+.amounts-of-donation div{
+    display: inline-block;
+    width: 18%;
+    background-color: #7b77774e;
+    padding: 30px 50px;
+    margin: 5Px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.active-amount{
+    border: 2px solid green;
+}
+.active-amount p{
+    color: green;
+    font-weight: 600;
+}
+.amounts-of-donation{
+    padding-bottom: 5%;
+}
+#amout-donation{
+    border: none;
+    outline: none;
+    padding-top: 2%;
+    font-size: 1rem;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.btn-two:hover{
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+/* donation ends here */
