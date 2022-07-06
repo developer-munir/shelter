@@ -104,3 +104,73 @@ body{
 }
 
 /* donation ends here */
+
+/* donate-plane starts here */
+.donate-plan{
+    width: 80%;
+    padding: 10% 5%;
+    margin: 0 auto;
+    display: block;
+}
+.donate-plan-texts{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.donate-plan-texts h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 2%;
+}
+.donate-plan-texts p{
+    font-size: 15px;
+    font-weight: 200;
+    color: #8a4b4bcb;
+}
+/* donate-plane starts here */
+.cards{
+    width: 30%;
+    padding: 2%;
+    border-radius: 10px;
+}
+.card-body h1{
+    font-size: 25px;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+.donate-plan-qualitys{
+    display: flex;
+   justify-content: space-around;
+   padding-top: 5%;
+}
+.food-for-family{
+    background-color:powderblue;
+}
+.food-for-family p{
+    font-size: 15px;
+    font-weight: 200;
+    color: #1c1515fe;
+    text-align: justify;
+}
+.shelter-for-family{
+    background-color:teal;
+}
+.shelter-for-family p{ 
+    font-size: 15px;
+    font-weight: 200;
+    color: #6a2222fe;
+    text-align: justify;
+}
+.education-for-child{
+    background-color: slategrey;
+}
+.education-for-child p{
+    font-size: 15px;
+    font-weight: 200;
+    color: #6a2222fe;
+    text-align: justify;
+}
+
+/* donate-plane ends here */
