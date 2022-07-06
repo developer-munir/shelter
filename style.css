@@ -240,6 +240,11 @@ body{
     top: 20px;
     text-transform: uppercase;  
 }
+.readmore-btn:hover{
+    background: transparent;
+    border: 2px solid black;
+    color: #000000;
+}
 .allnews-link{
     width: 25%;
     margin: 0 auto;
