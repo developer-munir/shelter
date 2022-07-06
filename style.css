@@ -249,6 +249,7 @@ body{
     width: 50%;
     margin: 0 auto;
     margin-bottom: 100px;
+    text-align: center;
 }
 .all-links-btn{
     text-decoration: none;
@@ -294,7 +295,7 @@ body{
 }
 .subscribe{
     padding: 50px;
-    background-color: rgba(168, 143, 60, 0.533);
+    background:linear-gradient(rgb(68, 57, 57),rgb(71, 100, 71));
 }
 .email-subscribers{
     width: 30%;
@@ -320,3 +321,22 @@ body{
     font-weight: 400;
 }
 /* myupdates ends here */
+
+
+/* footer starts here */
+.footer{
+    padding: 40px;
+    background-color: #000000;
+    margin-top: 8%;
+    text-align: center;
+}
+.footer h2{
+   color: red;
+   font-family: 'The Nautigal', cursive;
+   font-size: 50px;
+}
+.footer p{
+    color: white;
+    font-size: 15px;
+}
+/* footer ends here */
