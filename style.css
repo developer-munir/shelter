@@ -172,5 +172,62 @@ body{
     color: #6a2222fe;
     text-align: justify;
 }
-
 /* donate-plane ends here */
+
+
+/* latest news starts here */
+.latest-news{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.news-heading{
+    width: 40%;
+    margin: 0 auto;
+}
+.news-heading h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.news-container{
+    display: flex;
+    padding-top: 5%;
+    margin: 0 auto;
+
+}
+.news-links{
+    padding: 1%;
+}
+.news-links img{
+    width: 100%;
+    border-radius: 5px;  
+}
+.posted-person{
+    font-size: 14px;
+    color: #967676;
+}
+.posted-person-name{
+    text-transform: uppercase;
+    color: green;
+}
+.post-date{
+   font-weight: 600;
+}
+.news-text{
+    position: relative;
+    bottom: 20%;
+    left: 2%;
+}
+.news-card{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.news-card-body{
+    padding: 10% 5%;
+    text-align: justify;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 20px rgb(142, 139, 139);
+}
+
+/* latest news ends here */
